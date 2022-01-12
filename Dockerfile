@@ -1,9 +1,5 @@
 FROM python:3.9.9-slim
 
-# create a dir "app"
-# RUN mkdir /app
-# WORKDIR /app
-
 # install requirements
 COPY requirements.txt requirements.txt
 RUN pip install -U pip setuptools wheel
